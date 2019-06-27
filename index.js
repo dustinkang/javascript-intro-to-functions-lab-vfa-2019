@@ -20,6 +20,6 @@ function sayHiToGrandma(string) {
   if (string === lower) {
     return "I can't hear you!"
   } else if (string === upper) {
-    
+    return "YES INDEED!"
   }
 }
