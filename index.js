@@ -19,7 +19,13 @@ function sayHiToGrandma(string) {
   var lower = string.toLowerCase()
   if (string === lower) {
     return "I can't hear you!"
-  } else if (string === upper) {
+  } 
+  
+  if (string === upper) {
     return "YES INDEED!"
+  }
+  
+  if (string === "I love you, Grandma.") {
+    return "I love you, too."
   }
 }
